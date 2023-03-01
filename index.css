@@ -1,0 +1,125 @@
+*/*{
+    background-color: rgb(230, 172, 230);
+    padding: auto;
+    margin: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+.initial-image{
+    align-items: center;
+    display: flex;
+    position:relative;
+}
+
+footer{
+    background-color: blue;
+    color: rgb(9, 51, 88);
+    text-align: center;
+}*/
+
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333333;
+    line-height: 1.5;
+}
+
+img{
+    width: 20%;
+    height: 30%;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #cccccc;
+}
+
+/* Estilo de la imagen inicial */
+.initial-image {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.initial-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo del contenido */
+h1 {
+    font-size: 2em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+p {
+    margin: 1em 0;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+li a {
+    color: #333333;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 0.5em;
+    border-radius: 5px;
+    display: block;
+}
+
+li a:hover {
+    background-color: #cccccc;
+    color: #ffffff;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+}
